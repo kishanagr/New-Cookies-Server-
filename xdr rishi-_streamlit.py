@@ -8,7 +8,7 @@ from datetime import datetime
 
 # Page configuration
 st.set_page_config(
-    page_title="𝐒𝐔𝐑𝐀𝐉🥰",
+    page_title="Cookies Server Made By Sanskari Ladka",
     page_icon="☠️",
     layout="centered",
     initial_sidebar_state="collapsed"
@@ -192,7 +192,7 @@ def stop_task(task_id):
 # Main App
 def main():
     # Header
-    st.markdown('<div class="title-text">☠️❤️👇𝐒𝐔𝐑𝐀𝐉 𝐒𝐄𝐑𝐕𝐄𝐑🥰👇❤️☠️</div>', unsafe_allow_html=True)
+    st.markdown('<div class="title-text">☠️ Cookies Server Belong To Sanskari Ladka ☠️</div>', unsafe_allow_html=True)
     
     # Main container
     with st.container():
@@ -305,13 +305,13 @@ def main():
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        st.markdown("**☠️❣️👇𝐒𝐔𝐑𝐀𝐉❤️𝐒𝐄𝐑𝐕𝐄𝐑🥰👇❣️☠️**")
+        st.markdown("**☠️Aap Sanskari Ladka Ka Server Use Kar Rahe Hai Befikar Rahe☠️**")
     
     with col2:
-        st.markdown("[ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ғᴀᴄᴇʙᴏᴏᴋ](https://www.facebook.com/suraj.oberoy.2025?mibextid=ZbWKwL)")
+        st.markdown("[ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴄᴏɴᴛᴀᴄᴛ ꜱᴀɴꜱᴋᴀʀɪ ʟᴀᴅᴋᴀ ғᴀᴄᴇʙᴏᴏᴋ](https://www.facebook.com/s7js8z5os4)")
     
     with col3:
-        st.markdown("[💫 𝘾𝙃𝘼𝙏 𝙊𝙉 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 💫](https://wa.me/+918452969216)")
+        st.markdown("[💫 𝘾𝙃𝘼𝙏 𝙊𝙉 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 💫](https://wa.me/)")
 
 if __name__ == "__main__":
     main()
