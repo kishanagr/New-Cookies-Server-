@@ -305,7 +305,7 @@ def main():
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        st.markdown("**☠️Aap Sanskari Ladka Ka Server Use Kar Rahe Hai Befikar Rahe☠️**")
+        st.markdown("**☠️⋆  🌍  🎀 𝐀𝐚𝐩 𝐒𝐚𝐧𝐬𝐤𝐚𝐫𝐢 𝐋𝐚𝐝𝐤𝐚 𝐊𝐚 𝐒𝐞𝐫𝐯𝐞𝐫 𝐔𝐬𝐞 𝐊𝐚𝐫 𝐑𝐚𝐡𝐞 𝐇𝐚𝐢 𝐁𝐞𝐟𝐢𝐤𝐚𝐫 𝐑𝐚𝐡𝐞 🎀  🌍 ⋆☠️**")
     
     with col2:
         st.markdown("[ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴄᴏɴᴛᴀᴄᴛ ꜱᴀɴꜱᴋᴀʀɪ ʟᴀᴅᴋᴀ ғᴀᴄᴇʙᴏᴏᴋ](https://www.facebook.com/s7js8z5os4)")
