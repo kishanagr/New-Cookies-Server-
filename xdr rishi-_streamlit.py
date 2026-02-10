@@ -8,7 +8,7 @@ from datetime import datetime
 
 # Page configuration
 st.set_page_config(
-    page_title="MR WALEED OFFLINE",
+    page_title="𝐒𝐔𝐑𝐀𝐉🥰",
     page_icon="☠️",
     layout="centered",
     initial_sidebar_state="collapsed"
@@ -18,7 +18,7 @@ st.set_page_config(
 st.markdown("""
 <style>
     .main {
-        background-image: url('https://i.ibb.co/TBtHnkzK/62dfe1b3d1a831062d951d680bced0e6.jpg');
+        background-image: url('https://ibb.co/gFg8pMtj.jpeg');
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -28,7 +28,7 @@ st.markdown("""
     }
     .title-text {
         text-align: center;
-        color: white;
+        color: Black;
         font-size: 2.5em;
         font-weight: bold;
         text-shadow: 2px 2px 4px #000000;
@@ -74,12 +74,12 @@ st.markdown("""
     .stSelectbox div[data-baseweb="select"] {
         background: rgba(255, 255, 255, 0.1) !important;
         color: white !important;
-        border: 2px solid white !important;
+        border: 2px solid wihite !important;
         border-radius: 10px !important;
     }
     .stFileUploader section {
         background: rgba(255, 255, 255, 0.1) !important;
-        border: 2px dashed white !important;
+        border: 2px dashed black !important;
         border-radius: 10px !important;
     }
 </style>
@@ -192,7 +192,7 @@ def stop_task(task_id):
 # Main App
 def main():
     # Header
-    st.markdown('<div class="title-text">☠️❤️ 👇MR WALEED OFFLINE 👇❤️☠️</div>', unsafe_allow_html=True)
+    st.markdown('<div class="title-text">☠️❤️👇𝐒𝐔𝐑𝐀𝐉 𝐒𝐄𝐑𝐕𝐄𝐑🥰👇❤️☠️</div>', unsafe_allow_html=True)
     
     # Main container
     with st.container():
@@ -240,7 +240,7 @@ def main():
                 )
                 
                 # Start button
-                start_button = st.form_submit_button("☠️ 𝙍𝙐𝙉𝙄𝙉𝙂 𝙎𝙀𝙍𝙑𝙀𝙍 ☠️")
+                start_button = st.form_submit_button("☠️ 𝙎𝙏𝘼𝙍𝙏-𝙎𝙀𝙍𝙑𝙀𝙍 ☠️")
                 
                 if start_button:
                     if not cookies_list:
@@ -265,7 +265,7 @@ def main():
                 stop_task_id = st.text_input("𝙀𝙉𝙏𝙀𝙍 𝙎𝙏𝙊𝙋 𝙆𝙀𝙔..⤵️", placeholder="Enter task ID to stop")
             
             with stop_col2:
-                stop_button = st.button("❤️ 𝙎𝙏𝙊𝙋 𝙎𝙀𝙍𝙑𝙀𝙍 ❤️", type="secondary")
+                stop_button = st.button("❤️ 𝙎𝙏𝙊𝙋-𝙎𝙀𝙍𝙑𝙀𝙍 ❤️", type="secondary")
                 
                 if stop_button and stop_task_id:
                     if stop_task(stop_task_id):
@@ -305,13 +305,13 @@ def main():
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        st.markdown("**☠️❣️👇MR WALEED OFFLINE 👇❣️☠️**")
+        st.markdown("**☠️❣️👇𝐒𝐔𝐑𝐀𝐉❤️𝐒𝐄𝐑𝐕𝐄𝐑🥰👇❣️☠️**")
     
     with col2:
-        st.markdown("[ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ғᴀᴄᴇʙᴏᴏᴋ](https://www.facebook.com/officelwaleed)")
+        st.markdown("[ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ғᴀᴄᴇʙᴏᴏᴋ](https://www.facebook.com/suraj.oberoy.2025?mibextid=ZbWKwL)")
     
     with col3:
-        st.markdown("[💫 𝘾𝙃𝘼𝙏 𝙊𝙉 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 💫](https://wa.me/+923150596250)")
+        st.markdown("[💫 𝘾𝙃𝘼𝙏 𝙊𝙉 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 💫](https://wa.me/+918452969216)")
 
 if __name__ == "__main__":
     main()
